@@ -5,7 +5,7 @@ Utility to create disk images which emulate the IBM PC 5150 cassette interface i
 
 ## Elevator Pitch
 
-CassBox concatenates its own code together with an IBM PC BASIC ROM dump and, optionally, a cassette file to create a 320 KB (DS/DD, 8 sectors/track) diskette image which can be booted in DOSBox.  The code loads itself and the BASIC ROM dump into the top of the 640K conventional RAM space and installs a handler for the cassette interrupt which emulates the cassette interface.
+CassBox concatenates its own code together with an IBM PC BASIC ROM dump and, optionally, a cassette file to create a 320 KB (DS/DD, 8 sectors/track) diskette image which can be booted in DOSBox.  The code loads itself and the BASIC ROM dump into the top of the 640 KB conventional RAM space and installs a handler for the cassette interrupt which emulates the cassette interface.
 
 
 ## Caveats
